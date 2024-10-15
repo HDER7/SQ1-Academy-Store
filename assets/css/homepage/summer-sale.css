@@ -1,0 +1,47 @@
+@import "/assets/css/styles.css";
+
+.summer-sale {
+    background-image: url('/assets/images/limpio.png');
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 2rem;
+    text-align: center;
+    color: white;
+    text-shadow: #000 1px 1px;
+    font-weight: bold;
+    position: relative;
+}
+
+.sale-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.sale-tag {
+    color: white;
+    text-shadow: #000 1px 1px;
+    margin-bottom: 1rem;
+    display: block;
+    font-weight: bold;
+}
+
+.summer-sale h2 {
+    font-size: 2.5rem;
+}
+
+#btn-sale {
+    color: white;
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--primary-color);
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#btn-sale:hover {
+    background: rgb(176, 2, 2);
+}

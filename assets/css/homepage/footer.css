@@ -1,0 +1,25 @@
+@import "/assets/css/styles.css";
+
+.footer {
+    background: white;
+    border-top: 1px solid #EEEEEE;
+    padding: 2rem;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #666;
+    font-size: 0.9rem;
+}
