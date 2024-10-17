@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.filters {
+    width: 200px;
+    padding-right: 20px;
+}
+.filter-section {
+    margin-bottom: 20px;
+}
+.filter-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.size-buttons button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    background: none;
+    border: 1px solid #ccc;
+}
+.color-circles {
+    display: flex;
+    flex-wrap: wrap;
+}
+.color-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 5px 5px 0;
+    cursor: pointer;
+}
+.price-range span {
+    display: block;
+    margin-bottom: 5px;
+}
+.brands, .collections, .tags {
+    font-size: 14px;
+}
+.brands span, .collections span, .tags span {
+    display: block;
+    margin-bottom: 5px;
+}
+.products {
+    flex-grow: 1;
+}
+.products-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.view-options span {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.product-card {
+    text-align: center;
+}
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+.product-title {
+    margin: 10px 0 5px;
+    font-size: 14px;
+}
+.product-price {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.color-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.color-option {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0 2px;
+    border: 1px solid #ccc;
+}
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+.pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background: none;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
