@@ -62,10 +62,10 @@
     gap: 20px;
 }
 .product-card {
-    text-align: center;
+    text-align: left;
 }
 .product-card img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
 }
 .product-title {
@@ -78,7 +78,7 @@
 }
 .color-options {
     display: flex;
-    justify-content: center;
+    justify-content: leftup;
     margin-top: 5px;
 }
 .color-option {
