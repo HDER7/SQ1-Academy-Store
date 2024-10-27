@@ -1,7 +1,7 @@
 @import "/assets/css/styles.css";
 
 .summer-sale {
-    background-image: url('/assets/images/limpio.png');
+    background-image: url('../../images/limpio.png');
     background-size: cover;
     background-position: center;
     padding: 5rem 2rem;
