@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQUARE 1 Academy</title>
+    <link rel="shortcut icon" href="assets\images\SQ1 Academy (1) 1.svg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/checkout/checkout.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets\images\SQ1 Academy (1) 1.svg" alt="SQUARED Academy">
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#women">WOMEN</a></li>
+                    <li><a href="#men">MEN</a></li>
+                    <li><a href="#kids">KIDS</a></li>
+                    <li><a href="#accesories">ACCESORIES</a></li>
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#news">NEWS</a></li>
+                    <li><a href="#contact">CONTACT US</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="#search" cl ass="icon-search"><img src="assets\images\Vector.svg" alt="search"></a>
+                <a href="#account" class="icon-user"><img src="assets\images\Group 41.svg" alt="icon-user"></a>
+                <a href="#cart" class="icon-cart"><img src="assets\images\shopping_basket.svg" alt="shopping_basket"><span class="cart-count">3</span></a>
+            </div>
+        </div>
+    </header>
+    <div class="checkout-container">
+        <h1 class="checkout-title">Checkout</h1>
+
+        <div class="left-column">
+            <section class="contact">
+                <h2 class="section-title">Contact</h2>
+                <div class="create-account">
+                    Have an account? <a href="#">Create Account</a>
+                </div>
+                <input type="email" placeholder="Email Address">
+            </section>
+
+            <section class="delivery">
+                <h2 class="section-title">Delivery</h2>
+                <select>
+                    <option value="">Country / Region</option>
+                </select>
+                <div class="name-group">
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                </div>
+                <input type="text" placeholder="Address">
+                <div class="postal-group">
+                    <input type="text" placeholder="City">
+                    <input type="text" placeholder="Postal Code">
+                </div>
+                <div class="save-info">
+                    <input type="checkbox" id="save-delivery">
+                    <label for="save-delivery">Save this info for future</label>
+                </div>
+            </section>
+
+            <section class="payment">
+                <h2 class="section-title">Payment</h2>
+                <div class="card-group">
+                    <select>
+                        <option value="">Credit Card </option>
+                    </select>
+                </div><img src="assets\images\trustbag2png.png" alt="card" id="card">
+                <div class="card-info">
+                    <input type="text" placeholder="Card Number">
+                    <div class="security-group">
+                        <input type="text" placeholder="Expiration Date">
+                        <input type="text" placeholder="Security Code">
+                    </div>
+                    <input type="text" placeholder="Card Holder Name">
+                </div>
+                <div class="save-info">
+                    <input type="checkbox" id="save-payment">
+                    <label for="save-payment">Save this info for future</label>
+                </div>
+                <button class="pay-button">Pay Now</button>
+            </section>
+        </div>
+
+        <div class="right-column">
+            <div class="order-summary">
+                <span class="count">1</span>
+                <img src="assets\images\Link ⏵ responsive-image (3).png" alt="Mini Dress" class="product-image">
+                <div class="product-details">
+                    <div class="product-name">Mini Dress With Ruffled Straps</div>
+                    <div class="product-price">$100.00</div>
+                </div>
+                <div class="quantity-badge">1</div>
+            </div>
+
+            <div class="summary-rows">
+                <div class="summary-row">
+                    <span>Subtotal</span>
+                    <span>$100.00</span>
+                </div>
+                <div class="summary-row">
+                    <span>Shipping</span>
+                    <span>$40.00</span>
+                </div>
+                <div class="total-row">
+                    <span>Total</span>
+                    <span id="total-red">$140.00</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            Copyright © 2023 SQUARE. All Rights Reserved.
+        </div>
+    </div>
+</body>
+</html>

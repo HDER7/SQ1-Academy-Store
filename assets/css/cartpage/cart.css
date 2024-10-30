@@ -171,3 +171,27 @@
     width: 50%;
     margin-left: 50%;
 }
+
+a{
+    color: black;
+}
+
+a:link {
+    text-decoration: none
+}
+
+a:hover {
+    color: black;
+    font-family: arial;
+    text-decoration: none
+}
+
+a:visited {
+    color: black;
+    font-family: arial;
+    text-decoration: none
+}
+
+#checkout{
+    color: white;
+}
