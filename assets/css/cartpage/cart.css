@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.cart-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 20px 0;
+    color: #555;
+    font-size: 14px;
+}
+
+.cart-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 400;
+    color: #333;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-table th {
+    text-align: left;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+    font-weight: 500;
+    color: #333;
+}
+
+.cart-table .product-column {
+    width: 50%;
+}
+
+.cart-table .price-column,
+.cart-table .quantity-column,
+.cart-table .total-column {
+    width: 16.66%;
+}
+
+.product-info {
+    display: flex;
+    gap: 15px;
+    padding: 20px 0;
+}
+
+.product-image {
+    width: 90px;
+    height: 110px;
+    object-fit: cover;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.product-name {
+    font-weight: 500;
+    color: #333;
+    font-size: 15px;
+}
+
+.product-color {
+    color: #666;
+    font-size: 14px;
+}
+
+.remove-link {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    width: fit-content;
+    border-radius: 3px;
+}
+
+.quantity-btn {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #666;
+    font-size: 16px;
+}
+
+.quantity-input {
+    width: 40px;
+    height: 30px;
+    border: none;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    text-align: center;
+    font-size: 14px;
+}
+
+.price, .total {
+    font-size: 15px;
+    color: #333;
+}
+
+.gift-wrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 25px 0;
+    border-bottom: 1px solid #eee;
+    color: #666;
+    font-size: 14px;
+}
+
+.gift-wrap input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ddd;
+}
+
+.subtotal {
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    margin: 25px 0;
+    font-weight: 500;
+    color: #333;
+    font-size: 15px;
+}
+
+.checkout-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #E31837;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.view-cart {
+    display: block;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+#Checkoutid{
+    width: 50%;
+    margin-left: 50%;
+}

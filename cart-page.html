@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQUARE 1 Academy</title>
+    <link rel="shortcut icon" href="assets\images\SQ1 Academy (1) 1.svg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/cartpage/cart.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets\images\SQ1 Academy (1) 1.svg" alt="SQUARED Academy">
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#women">WOMEN</a></li>
+                    <li><a href="#men">MEN</a></li>
+                    <li><a href="#kids">KIDS</a></li>
+                    <li><a href="#accesories">ACCESORIES</a></li>
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#news">NEWS</a></li>
+                    <li><a href="#contact">CONTACT US</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="#search" cl ass="icon-search"><img src="assets\images\Vector.svg" alt="search"></a>
+                <a href="#account" class="icon-user"><img src="assets\images\Group 41.svg" alt="icon-user"></a>
+                <a href="#cart" class="icon-cart"><img src="assets\images\shopping_basket.svg" alt="shopping_basket"><span class="cart-count">3</span></a>
+            </div>
+        </div>
+    </header>
+    <div class="cart-container">
+        <div class="breadcrumb">
+            <span>Home</span>
+            <span>/</span>
+            <span>Your Shopping Cart</span>
+        </div>
+
+        <h1 class="cart-title">Shopping Cart</h1>
+
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th class="product-column">Product</th>
+                    <th class="price-column">Price</th>
+                    <th class="quantity-column">Quantity</th>
+                    <th class="total-column">Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="product-info">
+                            <img src="assets\images\Link ⏵ responsive-image (3).png" alt="Mini Dress" class="product-image">
+                            <div class="product-details">
+                                <div class="product-name">Mini Dress With Ruffled Straps</div>
+                                <div class="product-color">Color: Red</div>
+                                <a href="#" class="remove-link">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="price">$14.90</td>
+                    <td>
+                        <div class="quantity-controls">
+                            <button class="quantity-btn">-</button>
+                            <input type="text" value="01" class="quantity-input">
+                            <button class="quantity-btn">+</button>
+                        </div>
+                    </td>
+                    <td class="total">$14.90</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div id="Checkoutid">
+            <div class="gift-wrap">
+                <input type="checkbox" id="gift-wrap">
+                <label for="gift-wrap">For $10.00 Please Wrap The Product</label>
+            </div>
+
+            <div class="subtotal">
+                <span>Subtotal</span>
+                <span>$100.00</span>
+            </div>
+
+            <button class="checkout-btn">Checkout</button>
+            <a href="#" class="view-cart">View Cart</a>
+        </div>
+
+    </div>
+</body>
+</html>
